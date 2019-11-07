@@ -1,0 +1,4 @@
+*.pyc
+# Yes, I use Eclipse with PyDev, what of it?
+.project
+.pydevproject
