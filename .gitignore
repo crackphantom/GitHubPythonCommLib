@@ -1,0 +1,7 @@
+#NOTE: If changes to this file don't show, try "git rm -r --cached ."
+*.pyc
+# Yes, I use Eclipse with PyDev, what of it?
+.project
+.pydevproject
+# Avoid commiting files with secrets 
+tests/integration/settings.py
