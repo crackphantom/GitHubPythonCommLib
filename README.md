@@ -1,6 +1,6 @@
-# GitHubVulnerableDependenciesClient
+# GitHubPythonCommLib
 
-Collection of queries to GitHub v4 (GraphQL) API to programmatically collect vulnerabilities in GitHub repositories
+Collection of queries to GitHub v4 (GraphQL) API to programmatically collect information, like vulnerabilities, in GitHub repositories
 
 ## The Vulnerable Dependencies feature in GitHub
 
@@ -37,7 +37,10 @@ curl -H "Authorization: token OAUTH-TOKEN" https://api.github.com/graphql -I
 X-OAuth-Scopes lists the scopes your token has authorized.
 X-Accepted-OAuth-Scopes lists the scopes that the action checks for.
 
-
-
 Further details
 https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/
+
+## Generic Python Comm Lib Dependency
+
+The code and this project is an extension of and leverages the GenericPythonCommLib project (https://github.com/crackphantom/GenericPythonCommLib)
+And therefore should be part of the PYTHONPATH etc...

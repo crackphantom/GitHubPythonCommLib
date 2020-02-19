@@ -5,7 +5,7 @@ Created on Oct 23, 2019
 '''
 
 import json
-from genericpcommlib.http import factory
+from datadorks.pcomm.http.clients import factory
 
 GITHUBV4_URL = 'https://api.github.com/graphql'
 PAGE_SIZE = 10
